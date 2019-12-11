@@ -53,10 +53,39 @@ header {
     -webkit-box-shadow: 12px 3px 16px -4px #cfbfcf;
     -moz-box-shadow: 12px 3px 16px -4px #cfbfcf;
     box-shadow: 12px 3px 16px -4px #cfbfcf;
-    border-radius: 0; }
+    border-radius: 0;
+    margin-bottom: 1em;
+    border: none; }
+    .section1 .card p, .section1 .card li {
+      color: #969696; }
     .section1 .card i {
       font-size: 3.5rem;
       padding: 3rem;
       text-align: center; }
+    .section1 .card ul {
+      list-style: none;
+      padding: 0; }
+      .section1 .card ul i {
+        font-size: 1rem;
+        padding: 0;
+        margin-right: .5rem;
+        color: #dc3545; }
+  .section1 .btn {
+    padding: .5em 3em; }
+
+.section2 {
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, #da146d 0%, #ff004c 96%);
+  color: white; }
+  .section2 .card-container {
+    padding: 0 2em; }
+  .section2 .card {
+    border: none;
+    border-radius: 0;
+    color: black; }
+    .section2 .card img {
+      border-radius: 0; }
+  .section2 .votes {
+    border-top: 1px gray solid; }
 
 /*# sourceMappingURL=style.css.map */

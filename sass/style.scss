@@ -85,7 +85,13 @@ header{
         box-shadow: 12px 3px 16px -4px rgba(207,191,207,1);
 
         border-radius:0;
+        margin-bottom: 1em;
+        border: none;
 
+        p, li{
+            color: rgb(150, 150, 150);
+        }
+        
         i{
             font-size:3.5rem;
             padding:3rem;
@@ -93,5 +99,48 @@ header{
             
         }
         
+        ul{
+            list-style: none;
+            padding: 0;
+
+            i{
+                font-size: 1rem;
+                padding: 0;
+                margin-right: .5rem;
+                color: #dc3545;
+            }
+        }
+
+    }
+
+    .btn{
+        padding: .5em 3em;
+    }
+}
+
+.section2{
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(218,20,109,1) 0%, rgba(255,0,76,1) 96%);
+    color: white;
+
+    .card-container{
+        padding: 0 2em;
+    }
+
+    .card{
+        border: none;
+        border-radius: 0;
+        color: black;
+        img{
+            border-radius: 0;
+        }
+    }
+    .votes{
+        border-top: 1px gray solid;
+
+        a{
+
+        }
     }
 }
