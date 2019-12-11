@@ -3,24 +3,28 @@ body{
 }
 header{
     min-height: 100vh;
-    background-image: url("https://i.f1g.fr/media/madame/orig/sites/default/files/img/2018/11/salon_decoration_contemporain_hubstairs.jpg");
-    background-size: cover;
+    
     color: white;
-
+    background-image: url("img/hero_bg_2.jpg");
+    background-size: cover;
+    
     
     h1{
         font-size: 1.5rem;
         font-weight: bolder;
     }
-
+    
     h2{
-        font-size: 3rem;
+        font-size: 4rem;
+        
+        
     }
 
     .title{
-        width: 55%;
-        padding-top: 5rem;
+        width: 50%;
+        padding-top: 10rem;
         min-height: 90vh;
+        margin-left: 3rem;
         .scroll{
             text-align: right;
         }
@@ -45,8 +49,12 @@ header{
     }
     
     .header-container{
-        background: rgba(248, 158, 248, 0.5);
+        
+        background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(218,20,109,1) 0%, rgba(255,0,76,1) 96%);
+        opacity: 0.50;
         min-height: 100vh;
+        z-index: 999;
         .head{
             padding: 1rem 2rem 1rem 2rem;
             min-height: 10vh
@@ -54,32 +62,11 @@ header{
     }
 }
 
-.imagesample{
-    
-    .col-3,.col-6{
-        padding:0;
-        margin:0;
-        position: relative;
-        padding-top:25%;
-        overflow: hidden;
-        img{
-            border-radius:0;
-            height:100%;
-            top:0;
-            left:0;
-            // bottom:0;
-            // right:0;
-            position: absolute;
-            max-width:100%;
-            filter : brightness(70%);  
-            object-fit: cover;
-        }
-    }
-}
+
 
 .section1{
     padding:4rem;
-    .col-4{
+    .col-md-4{
         padding:0 1rem ;
     }
     .card{
@@ -223,3 +210,133 @@ header{
     }
       
 }
+footer{
+    p{
+        color: rgb(150, 150, 150);
+
+    }
+    a{
+        color:#dc3545
+    }
+}
+
+@media screen and (max-width:766px){
+    .imagesample{
+        img{
+            max-width:100%
+        }
+    }
+
+    header{
+        ul{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    .section1,.section2,.section3,.section4{
+        padding:1rem 1rem;
+    }
+    
+    header{
+        
+        
+        h1{
+            font-size: 1.5rem;
+            font-weight: bolder;
+        }
+        
+        h2{
+            font-size: 2rem;
+            
+            
+        }
+    
+        .title{
+            width: 100%;
+            padding-top: 0rem;
+            min-height: 90vh;
+            margin-left: 0rem;
+            .scroll{
+                text-align: right;
+            }
+        }
+    
+        
+        ul{
+            list-style: none;
+            
+            li{
+                margin-left: .5em;
+                
+                &:hover{
+                    
+                    border-bottom: white 3px solid;
+                }
+            }
+        }
+        
+        a{
+            color: white;
+        }
+        
+        .header-container{
+            
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(218,20,109,1) 0%, rgba(255,0,76,1) 96%);
+            opacity: 0.50;
+            min-height: 100vh;
+            z-index: 999;
+            .head{
+                padding: 1rem 2rem 1rem 2rem;
+                min-height: 10vh
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1200px){
+
+.container-fluid{
+    max-width:75%;
+}
+.section3{
+    p{
+        width:75%;
+        margin:auto;
+    }
+}
+
+}
+
+
+@media screen and (min-width:767px){
+
+    .imagesample{
+        
+        .col-md-3,.col-md-6{
+            padding:0;
+            margin:0;
+            position: relative;
+            padding-top:25%;
+            overflow: hidden;
+            img{
+                border-radius:0;
+                height:100%;
+                top:0;
+                left:0;
+                // bottom:0;
+                // right:0;
+                position: absolute;
+                width:100%;
+                filter : brightness(70%);  
+                object-fit: cover;
+            }
+        }
+    }
+    
+    
+    }
+
+
+
