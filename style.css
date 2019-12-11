@@ -1,3 +1,6 @@
+body {
+  font-family: 'Rubik', sans-serif; }
+
 header {
   min-height: 100vh;
   background-image: url("https://i.f1g.fr/media/madame/orig/sites/default/files/img/2018/11/salon_decoration_contemporain_hubstairs.jpg");
@@ -76,16 +79,44 @@ header {
 .section2 {
   background: #020024;
   background: linear-gradient(90deg, #020024 0%, #da146d 0%, #ff004c 96%);
-  color: white; }
+  color: white;
+  padding: 4rem; }
   .section2 .card-container {
     padding: 0 2em; }
+  .section2 p {
+    color: #969696; }
   .section2 .card {
+    margin-top: 3rem;
     border: none;
     border-radius: 0;
     color: black; }
     .section2 .card img {
       border-radius: 0; }
-  .section2 .votes {
-    border-top: 1px gray solid; }
+    .section2 .card p {
+      color: #969696; }
+    .section2 .card .votes {
+      border-top: 1px gray solid; }
+      .section2 .card .votes a {
+        color: #dc3545; }
+  .section2 .btn {
+    color: white;
+    border: solid white 1px;
+    border-radius: 5px;
+    padding: .5em 3em; }
+
+.section3 {
+  padding: 4rem; }
+  .section3 p {
+    color: #969696; }
+  .section3 .row div {
+    margin-bottom: 2rem;
+    padding: 0 2em; }
+    .section3 .row div h4, .section3 .row div a {
+      color: #dc3545; }
+    .section3 .row div p {
+      font-size: 0.9rem; }
+    .section3 .row div i {
+      font-size: 1.2rem;
+      margin-right: 0.5rem; }
 
 /*# sourceMappingURL=style.css.map */
