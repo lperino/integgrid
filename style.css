@@ -9,8 +9,8 @@ header {
   header h2 {
     font-size: 3rem; }
   header .title {
-    width: 50%;
-    margin-top: 5rem;
+    width: 55%;
+    padding-top: 5rem;
     min-height: 90vh; }
     header .title .scroll {
       text-align: right; }
@@ -23,11 +23,40 @@ header {
   header a {
     color: white; }
   header .header-container {
-    padding: 1rem 2rem 1rem 2rem;
     background: rgba(248, 158, 248, 0.5);
     min-height: 100vh; }
+    header .header-container .head {
+      padding: 1rem 2rem 1rem 2rem;
+      min-height: 10vh; }
 
-.head {
-  min-height: 10vh; }
+.imagesample .col-3, .imagesample .col-6 {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  padding-top: 25%;
+  overflow: hidden; }
+  .imagesample .col-3 img, .imagesample .col-6 img {
+    border-radius: 0;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    max-width: 100%;
+    filter: brightness(70%);
+    object-fit: cover; }
+
+.section1 {
+  padding: 4rem; }
+  .section1 .col-4 {
+    padding: 0 1rem; }
+  .section1 .card {
+    -webkit-box-shadow: 12px 3px 16px -4px #cfbfcf;
+    -moz-box-shadow: 12px 3px 16px -4px #cfbfcf;
+    box-shadow: 12px 3px 16px -4px #cfbfcf;
+    border-radius: 0; }
+    .section1 .card i {
+      font-size: 3.5rem;
+      padding: 3rem;
+      text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
