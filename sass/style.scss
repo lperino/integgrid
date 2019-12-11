@@ -1,0 +1,53 @@
+header{
+    min-height: 100vh;
+    background-image: url("https://i.f1g.fr/media/madame/orig/sites/default/files/img/2018/11/salon_decoration_contemporain_hubstairs.jpg");
+    background-size: cover;
+    color: white;
+
+    
+    h1{
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+
+    h2{
+        font-size: 3rem;
+    }
+
+    .title{
+        width: 50%;
+        margin-top: 5rem;
+        min-height: 90vh;
+        .scroll{
+            text-align: right;
+        }
+    }
+
+    
+    ul{
+        list-style: none;
+        
+        li{
+            margin-left: .5em;
+            
+            &:hover{
+                
+                border-bottom: white 3px solid;
+            }
+        }
+    }
+    
+    a{
+        color: white;
+    }
+    
+    .header-container{
+        padding: 1rem 2rem 1rem 2rem;
+        background: rgba(248, 158, 248, 0.5);
+        min-height: 100vh;
+    }
+}
+
+.head{
+    min-height: 10vh
+}
