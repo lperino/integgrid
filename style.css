@@ -105,6 +105,7 @@ header {
     padding: .5em 3em; }
 
 .section3 {
+  background: lightgray;
   padding: 4rem; }
   .section3 p {
     color: #969696; }
@@ -118,5 +119,22 @@ header {
     .section3 .row div i {
       font-size: 1.2rem;
       margin-right: 0.5rem; }
+
+.section4 {
+  padding: 4rem; }
+  .section4 p {
+    color: gray; }
+  .section4 a {
+    color: #dc3545; }
+  .section4 .connect h3 {
+    font-size: 1.7rem;
+    margin-top: 3rem; }
+  .section4 .connect i {
+    margin: 1em 0 0 1em;
+    font-size: 1.5rem; }
+  .section4 .card {
+    border: none; }
+    .section4 .card .card-body {
+      padding-top: 0; }
 
 /*# sourceMappingURL=style.css.map */

@@ -166,6 +166,7 @@ header{
 }
 
 .section3{
+    background: lightgray;
     padding:4rem;
     p{
         color: rgb(150, 150, 150);
@@ -188,4 +189,37 @@ header{
             }
         }
     }
+}
+
+.section4{
+    padding: 4rem;
+
+    p{
+        color: gray;
+    }
+    a{
+        color: #dc3545;
+    }
+
+    .connect{
+
+        h3{
+            font-size: 1.7rem;
+            margin-top: 3rem;
+        }
+        
+        i{
+            margin: 1em 0 0 1em;
+            font-size: 1.5rem;
+        }
+    }
+
+    .card{
+        border: none;
+
+        .card-body{
+            padding-top: 0;
+        }
+    }
+      
 }
